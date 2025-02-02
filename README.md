@@ -10,6 +10,7 @@ Použití
 
 2. Spuštění skriptu: Skript se spouští z příkazového řádku. Použití je následující:
     python LC_projekt3.py <url> <file.csv>
+   
 
 <url>: URL stránka s volebními výsledky územního celku, kterou chcete zpracovat. URL stránka musí být uvedena v uvozovkách, např. "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101"
 
@@ -17,6 +18,7 @@ Použití
 
 3. Příklad použití:
     python LC_projekt3.py "https://www.volby.cz/pls/ps2017nss/ps36?xjazyk=CZ" "output.csv"
+   
 Tento příkaz stáhne volební výsledky pro zahraniční okrsky a uloží je do souboru output.csv.
 
 Funkce
