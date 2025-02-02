@@ -10,15 +10,15 @@ Skript obsahuje funkce pro zpracování výsledků jak z tuzemských volebních 
 pip install requests beautifulsoup4
 ```
 
-3. Spuštění skriptu:<br/> Skript se spouští z příkazového řádku. Použití je následující:
+2. Spuštění skriptu:<br/> Skript se spouští z příkazového řádku. Použití je následující:
 ```
 python LC_projekt3.py <url> <file.csv>
 ```
    
 <br/>
-<url>: URL stránka s volebními výsledky územního celku, kterou chcete zpracovat. URL stránka musí být uvedena v uvozovkách, např. "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101"<br/>
+url: URL stránka s volebními výsledky územního celku, kterou chcete zpracovat. URL stránka musí být uvedena v uvozovkách, např. "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101"<br/>
 
-<file.csv>: Název souboru, do kterého budou uložena extrahovaná data ve formátu CSV. Název souboru musí být uveden v uvozovkách, např. "soubor.csv"<br/>
+file.csv: Název souboru, do kterého budou uložena extrahovaná data ve formátu CSV. Název souboru musí být uveden v uvozovkách, např. "soubor.csv"<br/>
 
 3. Příklad použití:
 ```
