@@ -12,6 +12,7 @@ Použití
     python LC_projekt3.py <url> <file.csv>
 
 <url>: URL stránka s volebními výsledky územního celku, kterou chcete zpracovat. URL stránka musí být uvedena v uvozovkách, např. "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101"
+
 <file.csv>: Název souboru, do kterého budou uložena extrahovaná data ve formátu CSV. Název souboru musí být uveden v uvozovkách, např. "soubor.csv"
 
 3. Příklad použití:
