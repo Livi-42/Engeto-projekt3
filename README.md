@@ -64,7 +64,7 @@ Parametry:<br/>
 url (str): URL stránka s výsledky voleb.<br/>
 file (str): Název výstupního souboru.<br/>
 
-5.election_scraper_abroad(url: str, file: str)<br/>
+5. election_scraper_abroad(url: str, file: str)<br/>
 Funkce pro extrahování dat o volbách pro okrsky v zahraničí a jejich uložení do CSV souboru.<br/>
 
 Parametry:<br/>
