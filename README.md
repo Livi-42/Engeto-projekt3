@@ -1,17 +1,17 @@
 # Engeto-projekt3
-# Popis projektu
+## Popis projektu
 Tento Python skript slouží k extrahování volebních výsledků z webu www.volby.cz pro české volební okrsky a volební okrsky v zahraničí. Skript stahuje HTML stránku, extrahuje data o volebních výsledcích a ukládá je do CSV souboru pro další analýzu.
 
 Skript obsahuje funkce pro zpracování výsledků jak z tuzemských volebních okrsků, tak i pro okrsky v zahraničí. Můžete specifikovat URL stránky a název výstupního CSV souboru jako argumenty při spuštění skriptu.
 
-# Použití
+## Použití
 1. Instalace závislostí: Před spuštěním skriptu je nutné nainstalovat potřebné knihovny:
-'''bash
+'''
 pip install requests beautifulsoup4
 '''
 
 3. Spuštění skriptu: Skript se spouští z příkazového řádku. Použití je následující:
-'''bash
+'''
 python LC_projekt3.py <url> <file.csv>
 '''
    
@@ -21,13 +21,13 @@ python LC_projekt3.py <url> <file.csv>
 <file.csv>: Název souboru, do kterého budou uložena extrahovaná data ve formátu CSV. Název souboru musí být uveden v uvozovkách, např. "soubor.csv"
 
 3. Příklad použití:
-'''bash
+'''
 python LC_projekt3.py "https://www.volby.cz/pls/ps2017nss/ps36?xjazyk=CZ" "output.csv"
 '''
    
 Tento příkaz stáhne volební výsledky pro zahraniční okrsky a uloží je do souboru output.csv.
 
-# Funkce
+## Funkce
 1. save_data(data: list, file_name: str) -> str
 Funkce pro uložení seznamu slovníků do CSV souboru.
 
@@ -73,7 +73,7 @@ file (str): Název výstupního souboru.
 
 
 
-# Příklad výstupního CSV souboru
+## Příklad výstupního CSV souboru
 Výsledky budou uloženy do CSV souboru, kde každý řádek bude obsahovat následující sloupce:
 - code: Kód okrsku
 - location: Název obce
@@ -82,6 +82,6 @@ Výsledky budou uloženy do CSV souboru, kde každý řádek bude obsahovat nás
 - valid: Počet platných hlasů
 - následují výsledky počtu hlasů pro jednotlivé politické strany
 
-# Poznámky
+## Poznámky
 Tento skript je zaměřen na volební výsledky v roce 2017. Před použitím je nutné ověřit, zda stránka obsahuje požadované data pro zvolený rok.
 Skript zpracovává volební okrsky jak v České republice, tak v zahraničí. Používá rozdílné metody pro získání dat v závislosti na lokalitě okrsku.
