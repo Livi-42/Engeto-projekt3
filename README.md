@@ -5,17 +5,17 @@ Tento Python skript slouží k extrahování volebních výsledků z webu www.vo
 Skript obsahuje funkce pro zpracování výsledků jak z tuzemských volebních okrsků, tak i pro okrsky v zahraničí. Můžete specifikovat URL stránky a název výstupního CSV souboru jako argumenty při spuštění skriptu.<br/>
 
 ## Použití
-1. Instalace závislostí: Před spuštěním skriptu je nutné nainstalovat potřebné knihovny:
+1. Instalace závislostí:<br/> Před spuštěním skriptu je nutné nainstalovat potřebné knihovny:
 ```
 pip install requests beautifulsoup4
 ```
 
-3. Spuštění skriptu: Skript se spouští z příkazového řádku. Použití je následující:
+3. Spuštění skriptu:<br/> Skript se spouští z příkazového řádku. Použití je následující:
 ```
 python LC_projekt3.py <url> <file.csv>
 ```
    
-
+<br/>
 <url>: URL stránka s volebními výsledky územního celku, kterou chcete zpracovat. URL stránka musí být uvedena v uvozovkách, např. "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101"<br/>
 
 <file.csv>: Název souboru, do kterého budou uložena extrahovaná data ve formátu CSV. Název souboru musí být uveden v uvozovkách, např. "soubor.csv"<br/>
